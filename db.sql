@@ -1,8 +1,8 @@
-CREATE TABLE crud (
-  id INT NOT NULL IDENTITY(1,1),
-  first_name VARCHAR(255) NOT NULL,
-  last_name VARCHAR(255) NOT NULL,
-  email VARCHAR(255) NOT NULL,
-  gender VARCHAR(50) NOT NULL,
-  PRIMARY KEY (id)
-);
+CREATE TABLE `crud` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `gender` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+)
